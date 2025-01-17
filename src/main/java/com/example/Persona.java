@@ -6,13 +6,18 @@ public class Persona {
     private String cognome;
     private String codiceFiscale;
 
-    // costruttori
+    /**
+     * Costruttore di default
+     * @param nome
+     * @param cognome
+     * @param codiceFiscale
+     */
     public Persona(String nome, String cognome, String codiceFiscale) {
         this.nome = nome;
         this.cognome = cognome;
         this.codiceFiscale = codiceFiscale;
     }
-    
+
     public Persona() {
         this.nome = "";
         this.cognome = "";
