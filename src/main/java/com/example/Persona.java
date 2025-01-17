@@ -8,9 +8,9 @@ public class Persona {
 
     /**
      * Costruttore di default
-     * @param nome
-     * @param cognome
-     * @param codiceFiscale
+     * @param nome Il nome della persona
+     * @param cognome Il cognome della persona
+     * @param codiceFiscale Il codice fiscale della persona
      */
     public Persona(String nome, String cognome, String codiceFiscale) {
         this.nome = nome;
